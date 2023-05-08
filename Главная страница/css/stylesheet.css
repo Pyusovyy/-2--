@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+body {
+	margin:0px;
+	padding:0px;
+	background-attachment: scroll;
+	background-color:#E9CBD5;
+	background-repeat: repeat-x;
+	background-position:center center;
+}
+
+/*Задаём параметры и вставляем картинку на задний фон*/
+#content_container {
+	margin-left:auto;
+	margin-right:auto;
+	height: 750px;
+	background-attachment: scroll;
+	background-image: url(../images/Untitled-4.png);
+	background-repeat: no-repeat;
+	background-position:center center;
+}
+
+/*Устанавливаем параметры для верхней области*/
+#logo_container {
+	height:90px;
+	width:950px;
+	margin-left: 700px;
+	margin-right:auto;
+}
+
+/*Устанавливаем параметры для нижней области*/
+#main_container {
+	height:90px;
+	width:900px;
+	margin-left: 135px;
+	margin-right:auto;
+}
+
+/*Задаём размер,вставляем картинку и расположение логотипа*/
+#logo_image {
+	width:75px;
+	height:75px;
+	margin-left: -565px;
+	margin-top:15px;
+	float:left;
+	background-image: url(../images/logo.jpg);
+}
+
+/*Устанавливаем параметры для картинки логотипа*/
+#top_bar_black {
+	width: 1900px;
+	height:90px;
+	background-color:#35324B;
+}
+
+/*Устанавливаем параметры для текста в верхней области*/
+#bottom_bar_black {
+	width: 1900px;
+	height: 156px;
+	background-color:#35324B;
+}
+
+/*Задаём размер и расположение текста на верхней области*/
+#nav_block {
+	width: 785px;
+	height:90px;
+	float:right;
+	font-style: italic;
+}
+
+/*Устанавливаем цвет и размер для верхей области*/
+.nav_button {
+	width: 150px;
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	margin-left:5px;
+	margin-top:40px;
+	text-decoration: underline;
+	text-decoration-color: #ffffff;
+	text-align:center;
+	float:left;
+}
+
+.nav_button:link {
+	text-decoration:none;
+}
+
+/*Цвет текста*/
+.nav_button:hover {
+	text-decoration:none;
+	background-color:#35324B;
+}
+
+/*Устанавливаем параметры для центральной области*/
+#header {
+	width:500px;
+	margin-top: 260px;
+	margin-bottom:250px;
+	margin-left: 135px;
+	float: left;
+}
+
+/*Задаём цвет и размер для надписи магазина*/
+.header_content_mainline {
+	font-size:35px;
+	color:#FF0030;
+	width:155px;
+	font-style: italic;
+}
+
+/*Задаём цвет и размер надписи О нас*/
+#header_content_boxline {
+	font-size: 30px;
+	color:#FF0030;
+	width: 149px;
+	height: 135px;
+	margin-left: 135px;
+	font-style: italic;
+}
+
+/*Задаём цвет и размер надписи Контакты*/
+#header_content_lowerline {
+	font-size:20px;
+	color:#FFFFFF;
+	width:530px;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+/*Задаём цвет и размер информации о магазине*/
+#header_content_boxcontent {
+	font-size: 15px;
+	color:#35324B;
+	width: 1615px;
+	font-style: italic;
+	
+}
+
+/*Задаём цвет и размер информации Контактов*/
+#header_content_lowerboxcontent {
+	font-size: 16px;
+	color:#CCCCCC;
+	width: 455px;
+}
+
+/*Задаём размер и цвет слогана*/
+#header_content_tagline {
+	font-size:20px;
+	text-decoration: underline dotted;
+	color:#35324B;
+	width:450px;
+}
+
+/*Устанавливаем параметры для нижнего контейнера*/
+#header_lower {
+	width: 1215px;
+	float:left;
+	margin-right: 100px;
+}
+
+
